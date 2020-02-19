@@ -1,0 +1,82 @@
+/* ----ELEMENT STYLING START---- */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,700i&display=swap');
+
+*body
+{
+    margin:0;
+    padding:0;
+}
+/* .navbar {
+  position: fixed; */
+}
+#myTable {
+  width: 95%;
+  border-collapse: collapse;
+}
+#myTable td {
+  padding: 5px;
+  border: 1px solid black;
+  text-align: left;
+}
+#HeadRow {
+  background-color: #004c2E;
+  color: white;
+  font-weight: bold;
+}
+.optionDiv {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+#selectField {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid#ccc
+  font-size: 16 px;
+  height: 30px;
+  weight: 200px;
+  color: white;
+  background-color: #004c2E;
+}
+.odd {
+  background: #ccffeb;
+}
+.even {
+  background: #99FFD6;
+}
+
+/* ----FOOTER START---- */
+.footer navbar-fixed-bottom {
+  /* Positioning */
+  clear: both;
+  background-color:lightgreen;
+  padding:10px;
+  bottom: 0;
+
+  /* Box-model */
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+
+  /* Visual */
+  background-color: lightgreen;
+}
+
+.text-muted-footer{
+  /* Positioning */
+  margin-top: 10px;
+
+  /* Typography */
+  font-size: small;
+  color: gray;
+}
+
+.two-toned-footer-color {
+  /* Box-model */
+  height: 6px;
+  padding-top: 3px;
+
+  /* Visual */
+  background-color:grey;
+}
+/* ----FOOTER END---- */
