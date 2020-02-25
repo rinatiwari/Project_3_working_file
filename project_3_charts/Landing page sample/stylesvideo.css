@@ -1,0 +1,84 @@
+/* Style the video: 80% width and height to cover the first page */
+#myVideo {
+  position: fixed;
+  left: 20px;
+  right: 0;
+  bottom: 0px;
+  min-width: 68%;
+  min-height: 50%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  left: 20px;
+  bottom: 5px;
+  background: rgba(172, 238, 49, 0.5);
+  color: #f1f1f1;
+  width: 60%;
+  padding: 5px;
+}
+span {
+  font-family: 'Great Vibes', cursive;
+}
+/* Style the button used to pause/play the video */
+#myBtn {
+  font-family: 'Great Vibes', cursive;
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: rgb(61, 158, 4);
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  right: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 200px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  right: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#socially {
+  top: 80px;
+  background-color: #4CAF50;
+}
+
+#companies {
+  top: 180px;
+  background-color: #4CAF50; 
+}
+
+#stock {
+  top: 310px;
+  background-color: #4CAF50 
+}
+
+#charts {
+  top: 390px;
+  background-color:#4CAF50 
+}
+
+#tables {
+  top: 470px;
+  background-color:#4CAF50 
+}
+
